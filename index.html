@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Zapier</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link href="./output.css" rel="stylesheet">
+  <link href="./input.css" rel="stylesheet">
 </head>
-<body class="m-0">
+<body class="flex h-screen m-0">
   <!---->
   <!--tutta la pagina-->
-  <div class="flex h-screen">
-    <!--scrivere-->
-    <div class="w-3/5 p-4">
-      <h1 class="text-3xl font-bold"><span class="text-blue-600">_</span>zapier</h1>
-        <div class = "space-y-5 ph-8 w-2/3 px-6 py-12">
-          <strong class="text-3xl pl-10">Let's get you started,Losi</strong>
+    <!--items-center lo centra in verticale mentre juntify centere in orizzontale-->
+    <div class="w-4/6" >
+      <h1 class="text-3xl font-bold p-4"><span class="text-blue-600">_</span>zapier</h1>
+        <div class = "my-auto mx-auto space-y-2 w-2/3 py-12">
+          <strong class="text-3xl">Let's get you started,Losi</strong>
               <div class="items-center flex">
                   <div class="flex items-center justify-center h-10 w-10 p-7 rounded-full border-black border-2">1</div>
                   <div class="p-3">
@@ -24,7 +24,7 @@
                   </div>
               </div>
               <div class="items-center flex">
-                  <div class="flex items-center justify-center w-10 h-10 p-7 rounded-full border-black border-2">2</div>
+                  <div class="flex items-center justify-center h-10 w-10 p-7 rounded-full border-black border-2">2</div>
                   <div class="p-3">
                      <h2 class="font-bold">Dicover your use case</h2>
                      <p>Identify taskd Zapier can automate to simplify 
@@ -34,16 +34,16 @@
               <div class="flex items-center justify-center items-center flex">
                   <div class="flex items-center justify-center w-10 h-10 p-7 rounded-full border-black border-2">3</div>
                   <div class="p-3">
-                      <h2 class="font-bold">Get custom recommendations</h2>
-                      <p>Based on your profile,we'll generarte a personalized 
+                      <h2 class="font-bold">Get custom racommendations</h2>
+                      <p>Based on your profile,we'll generate a personalized 
                         Zap to kickstart your automation journey</p>
                   </div>
             </div>
         </div>
+        <button class="text-white bg-blue-400 p-3 rounded-lg float-right" onclick="alert('Ciao')">Get started</button>
     </div>
-    <div class="w-2/5 p-4 bg-green-200 grid">
-        <img class="flex justify-center item-center h-full m-full" src = "./mappa.jpeg" alt="immagine da mettere dopo"/>
-    </div>
+    <div class="flex items-center justify-center w-2/6 p-4 bg-rgb-blue-80">
+        <img class="h-full" src = "./mappa.jpeg" alt="immagine da mettere dopo"/>
     </div>
   <!--div id="root"></div-->
 </body>
