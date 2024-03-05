@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@layer utilities {
+    .bg-rgb-blue-80 {
+      background-color: rgb(206, 228, 225);
+    }
+  }
